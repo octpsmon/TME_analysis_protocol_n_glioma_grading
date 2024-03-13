@@ -43,7 +43,7 @@ In the 'Raw_Data/Experiment_Information' two files are expected:
 * Channels.txt contains per row the name of each marker/channel present in the image.
 * Image_Labels.xlsx contains the image names and their corresponding image-level labels.
 ## Citation
-The paper of the NaroNet creators:
+Citation of the paper of NaroNet's creators:
 ```diff
 @article{jimenez2021naronet,
   title={NaroNet: Discovery of tumor microenvironment elements from highly multiplexed images},
