@@ -1,9 +1,7 @@
-In this part of methods we implemented following pipeline on our single-stained tissue microarray:
-NaroNet - discovery of tumor microenvironment elements; 
-authors paper: [*paper*](https://arxiv.org/abs/2103.05385). 
+In this part of methods we implemented following pipeline called NaroNet on our single-stained tissue microarray. 
+NaroNet authors paper: [*paper*](https://arxiv.org/abs/2103.05385). 
 
-© [Daniel Jiménez Sánchez - CIMA University of Navarra](https://cima.cun.es/en/research/research-programs/solid-tumors-program/research-group-preclinical-models-preclinical-tools-analysis) - This code is made available under the GNU GPLv3 License and is available for non-commercial academic purposes. 
-
+To adjust input data to NaroNet we added convert_tif.ipynb.
 
 ## Requirements and installation
 * Linux (Tested on Ubuntu 18.04)
