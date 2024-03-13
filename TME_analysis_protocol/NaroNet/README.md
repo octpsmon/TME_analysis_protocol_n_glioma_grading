@@ -1,6 +1,6 @@
 In this part of methods we implemented following pipeline on our single-stained tissue microarray:
-NaroNet: discovery of tumor microenvironment elements
-Authors paper: [*paper*](https://arxiv.org/abs/2103.05385). 
+NaroNet - discovery of tumor microenvironment elements; 
+authors paper: [*paper*](https://arxiv.org/abs/2103.05385). 
 
 © [Daniel Jiménez Sánchez - CIMA University of Navarra](https://cima.cun.es/en/research/research-programs/solid-tumors-program/research-group-preclinical-models-preclinical-tools-analysis) - This code is made available under the GNU GPLv3 License and is available for non-commercial academic purposes. 
 
