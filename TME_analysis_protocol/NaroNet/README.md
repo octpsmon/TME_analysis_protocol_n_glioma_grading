@@ -1,5 +1,5 @@
 In this part of methods we implemented following pipeline called NaroNet on our single-stained tissue microarray. 
-NaroNet authors paper: [*paper*](https://arxiv.org/abs/2103.05385). 
+NaroNet authors paper: [*paper*](https://arxiv.org/abs/2103.05385). Original repository with the latest version can be found here: https://github.com/djimenezsanchez/NaroNet.
 
 To adjust input data to NaroNet we added convert_tif.ipynb.
 
