@@ -38,7 +38,7 @@ DATASET_DATA_DIR/
 		└── Patient_to_Image.xlsx (Optional)
 		
 ```
-In the 'Raw_Data/Images' folder we expect multiplex image data consisting of multi-page '.tiff' files with one channel/marker per page.
+In the 'Raw_Data/Images' folder we expect multiplex image data consisting of multi-page '.tiff' files.
 In the 'Raw_Data/Experiment_Information' two files are expected:
 * Channels.txt contains per row the name of each marker/channel present in the image.
 * Image_Labels.xlsx contains the image names and their corresponding image-level labels.
