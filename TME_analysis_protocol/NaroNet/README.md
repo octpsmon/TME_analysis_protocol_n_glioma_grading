@@ -1,8 +1,6 @@
 In this part of methods we implemented following pipeline called NaroNet on our glioma tissue microarray dataset. 
 NaroNet authors paper: [*paper*](https://arxiv.org/abs/2103.05385). Original repository with the latest version can be found here: https://github.com/djimenezsanchez/NaroNet.
 
-To adjust input data to NaroNet we added convert_tif.ipynb.
-
 ## Requirements and installation
 * Linux (Tested on Ubuntu 18.04)
 * NVIDIA GPU (Tested on Nvidia GeForce RTX 2080 Ti x 4 on GPU server, and Nvidia P100, K80 GPUs on Google Cloud)
