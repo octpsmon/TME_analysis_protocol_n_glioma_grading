@@ -1,0 +1,17 @@
+import os
+from PIL import Image
+!pip install python-resize-image
+from resizeimage import resizeimage
+
+def convert_tif(directory):
+    for filename in os.listdir(directory):
+        if filename.endswith('.tif'):
+            filepath = os.path.join(directory, filename)
+            with open(filepath, 'r+b') as f:
+                with Image.open(f) as image:
+                    if image.size != (1200,1920):
+                        continue
+                    cover = resizeimage.resize_cover(image, [1, 1200, 1920])
+                    cover.save(filepath, image.format)
+                
+convert_tif('/DATASET_DATA_DIR/Raw_Data-/Images_original')
