@@ -46,6 +46,6 @@ def main(path):
 
 if __name__ == "__main__":
     
-    path = '/home/hippo/Monika/NaroNet_Nencki/DATASET_DATA_DIR/'            
+    path = '/DATASET_DATA_DIR/'            
     main(path)
  
