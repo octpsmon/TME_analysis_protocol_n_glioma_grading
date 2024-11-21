@@ -48,8 +48,7 @@ epochs = 50
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
 # Define the data directory
-data_dir = "/net/tscratch/people/plgmnkpltrz/gliomaclass/gliomaclass/datasplitted/cropped"
-#data_dir = "/net/tscratch/people/plgmnkpltrz/gliomaclass/gliomaclass/HLA_hsv/HLA_hsv"
+data_dir = "gliomaclass/datasplitted/cropped"
 
 # Define the class names
 class_names = ["Grade 0", "Grade 1", "Grade 2", "Grade 3", "Grade 4"]
