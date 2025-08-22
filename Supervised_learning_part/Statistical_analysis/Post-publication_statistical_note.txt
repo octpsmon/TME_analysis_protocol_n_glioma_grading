@@ -1,0 +1,7 @@
+Post-publication statistical note. We initially compared models to the baseline using the unpaired Mann–Whitney U test on per-fold accuracies. 
+Because 10-fold CV was run with StratifiedKFold(..., shuffle=True, random_state=123), the test folds were identical across models (paired data); 
+within each fold, the train/validation split was reshuffled, which adds minor training noise but does not affect the shared test indices and does not cause leakage. 
+In this light, an unpaired test treats paired observations as independent and is typically conservative - lower power. For paired per-fold test accuracies 
+we favor the Wilcoxon test and controlling multiple baseline comparisons, not assuming normal distrubution; 
+where the differences appear approximately normal, paired t-tests yield consistent conclusions. 
+The absolute ranking by point estimates (DenseNet121-pretrained-HSV > baseline) is unchanged. 
